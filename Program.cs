@@ -91,8 +91,8 @@
             //Container<string> c2 = new();
 
             //Q9new constraint:force the type created as object from class to have parameterless constructor
-            Factory<Person> factory = new();
-            Person p = factory.Create();
+           // Factory<Person> factory = new();
+           // Person p = factory.Create();
             #endregion
         }
     }
