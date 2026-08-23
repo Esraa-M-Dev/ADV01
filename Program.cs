@@ -59,6 +59,30 @@
             //string[] items = { "esraa", "salma", "rawan" };
             //Console.WriteLine(Utility.FindMax(items)); 
             #endregion
+            #region generic interface
+            //Q6:Generic interface:interface works with different types of classes
+            //T classes implement interface
+            //ProductRepository productRepository = new ProductRepository();
+            //productRepository.Create(new Product(1, "Tv", 7000));
+            //productRepository.Create(new Product(2, "Pc", 10000));
+            //productRepository.Create(new Product(3, "Ac", 20000));
+            //List<Product> currentProducts = productRepository.GetAll();
+            //foreach (Product product in currentProducts)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            //Console.WriteLine("last product in list");
+            //Product lastProduct = productRepository.GetById(2);
+            //Console.WriteLine(lastProduct);
+
+            //productRepository.Delete(2);
+            //Console.WriteLine("after removing");
+            //foreach (Product product in currentProducts)
+            //{
+            //    Console.WriteLine(product);
+            //}
+
+            #endregion
         }
     }
 }
