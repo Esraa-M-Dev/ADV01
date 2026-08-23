@@ -46,6 +46,15 @@
             //Utility.Swap<string>(ref c, ref d); 
             //Console.WriteLine("after swap");
             //Console.WriteLine($"c= {c},d={d}");
+
+            //Q5:FindMax
+            
+            //int[] items = { 1, 2 };
+            //Console.WriteLine(Utility.FindMax(items)); 
+
+            //with string
+            //string[] items = { "esraa", "salma", "rawan" };
+            //Console.WriteLine(Utility.FindMax(items)); 
             #endregion
         }
     }
