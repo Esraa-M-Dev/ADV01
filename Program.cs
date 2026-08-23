@@ -31,6 +31,9 @@
             #endregion
             #region generic method
             //Q4:Swap
+            //generic method:method works eith general type instead of method overloading
+            //class may be non generic,type defined across specific method
+            //compiler will resolve type while calling method
             //int x = 5, y = 4;
             //Console.WriteLine("Before swap");
             //Console.WriteLine($"x= {x} ,y={y}");
@@ -48,7 +51,7 @@
             //Console.WriteLine($"c= {c},d={d}");
 
             //Q5:FindMax
-            
+
             //int[] items = { 1, 2 };
             //Console.WriteLine(Utility.FindMax(items)); 
 
