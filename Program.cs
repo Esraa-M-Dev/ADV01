@@ -21,6 +21,14 @@
             //c2.Add("esraa");
             //Console.WriteLine(c2.Get());
             #endregion
+            #region multi type parameter
+            // Q3://Different Types of Different Parameters in Generic Class
+            //suitable for changing request
+            //Pair<int, string> p1 = new(0, "esraa");
+            //Console.WriteLine(p1);
+            //Pair<int, bool> p2 = new(1, false);
+            //Console.WriteLine(p2);
+            #endregion
         }
     }
 }
