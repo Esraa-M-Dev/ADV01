@@ -4,17 +4,9 @@ using System.Text;
 
 namespace AssigmnentAdvancedC_01
 {
-    internal class Container<T>
+    internal class Container<T> where T:struct
     {
-        private T value;
-        public void Add(T item)
-        {
-            value = item;
-        }
-        public T Get()
-        {
-            return value;
-        }
+        public T Value { get; set; }
 
     }
 }

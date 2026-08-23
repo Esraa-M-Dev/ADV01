@@ -83,6 +83,11 @@
             //}
 
             #endregion
+            #region generic constraints
+            //Q7:struct constraint:force the type of class members to be from struct type[int,float,....]
+            //Container<int> c1 = new();
+            //Container<string> c2 = new(); //compile error
+            #endregion
         }
     }
 }
