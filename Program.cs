@@ -29,6 +29,24 @@
             //Pair<int, bool> p2 = new(1, false);
             //Console.WriteLine(p2);
             #endregion
+            #region generic method
+            //Q4:Swap
+            //int x = 5, y = 4;
+            //Console.WriteLine("Before swap");
+            //Console.WriteLine($"x= {x} ,y={y}");
+            //Utility.Swap<int>(ref x, ref y);
+            //Console.WriteLine("after swap");
+            //Console.WriteLine($"x= {x},y={y}");
+
+            //Console.WriteLine("==========================");
+
+            //string c = "esraa", d = "salma";
+            //Console.WriteLine("Before swap");
+            //Console.WriteLine($"c= {c} ,d={d}");
+            //Utility.Swap<string>(ref c, ref d); 
+            //Console.WriteLine("after swap");
+            //Console.WriteLine($"c= {c},d={d}");
+            #endregion
         }
     }
 }
