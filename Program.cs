@@ -89,6 +89,10 @@
             //Container<string> c2 = new(); //compile error
             //Q8:class constraint:force the type of class members to be from class type{string,......]
             //Container<string> c2 = new();
+
+            //Q9new constraint:force the type created as object from class to have parameterless constructor
+            Factory<Person> factory = new();
+            Person p = factory.Create();
             #endregion
         }
     }
