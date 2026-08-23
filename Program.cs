@@ -87,6 +87,8 @@
             //Q7:struct constraint:force the type of class members to be from struct type[int,float,....]
             //Container<int> c1 = new();
             //Container<string> c2 = new(); //compile error
+            //Q8:class constraint:force the type of class members to be from class type{string,......]
+            //Container<string> c2 = new();
             #endregion
         }
     }
