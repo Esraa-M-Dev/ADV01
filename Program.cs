@@ -91,8 +91,19 @@
             //Container<string> c2 = new();
 
             //Q9new constraint:force the type created as object from class to have parameterless constructor
-           // Factory<Person> factory = new();
-           // Person p = factory.Create();
+            // Factory<Person> factory = new();
+            // Person p = factory.Create();
+
+            //Q10:interface constraint:any generic type of class must implement interface
+            //Test<Book> test = new Test<Book>();
+
+            //Book book = new Book();
+
+            //test.PrintItem(book);
+
+            //Q11:base constraint:generic Type must inherit from specific class
+            // Shelter<Dog> shelter = new Shelter<Dog>();
+
             #endregion
         }
     }
