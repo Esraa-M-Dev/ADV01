@@ -140,6 +140,19 @@
             //covariance:treat T as return type of method/get property : apply it when (parent type) of interface reference point to class implementant and define interface type with(child type) 
             //contravariance:treat T as parameter of method/set property : apply it when (child type) of interface reference point to class implementant and define interface type with(parent type) 
 
+            //Q18-static with generics
+            //static field will be resseted in each time of creation different type from generic class
+            //Counter<int> countOfInteger = new();
+            //countOfInteger.Increment();
+            //countOfInteger.Increment();
+            //countOfInteger.Increment();
+            //Console.WriteLine(Counter<int>.count); //3
+
+            //Counter<string> countOfString = new();
+            //countOfString.Increment();
+            //countOfString.Increment();
+            //Console.WriteLine(Counter<string>.count); //2:reset counter with start any type of generic class
+
             #endregion
         }
     }
