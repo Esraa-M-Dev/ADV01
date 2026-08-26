@@ -136,6 +136,10 @@
             //use in keyword to specify T at in position(as a parameter)
              IConsumer<Dog> consumer = new AnimalConsumer(); //accepted T at in position=>implicit cast
 
+            //Q17-comparison betwwen Covariance/Contravariance
+            //covariance:treat T as return type of method/get property : apply it when (parent type) of interface reference point to class implementant and define interface type with(child type) 
+            //contravariance:treat T as parameter of method/set property : apply it when (child type) of interface reference point to class implementant and define interface type with(parent type) 
+
             #endregion
         }
     }
