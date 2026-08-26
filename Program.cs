@@ -128,6 +128,11 @@
             //Console.WriteLine($"element at index 0 is:{list2.GetElementAt(0)}");
             //Console.WriteLine($"element at index 3 is:{list2.GetElementAt(3) ?? "Null"}");
 
+            //Q15:Covariance
+            //use out keyword to specify T at out positions(as a return type)
+           // IProducer<Animal> producer = new DogProducer(); //accepted T at out position=>implicit cast
+
+
             #endregion
         }
     }
