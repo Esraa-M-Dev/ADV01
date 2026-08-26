@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AssigmnentAdvancedC_01
 {
-    internal class Dog
+    internal class Dog:Animal
     {
     }
 }

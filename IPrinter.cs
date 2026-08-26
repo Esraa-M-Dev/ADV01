@@ -6,5 +6,6 @@ namespace AssigmnentAdvancedC_01
 {
     internal interface IPrinter
     {
+        void Print();
     }
 }

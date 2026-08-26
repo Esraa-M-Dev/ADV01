@@ -6,5 +6,9 @@ namespace AssigmnentAdvancedC_01
 {
     internal class Animal
     {
+        public void Eat()
+        {
+            Console.WriteLine("Eating");
+        }
     }
 }

@@ -109,6 +109,11 @@
             //order of constraints :primary , secondary,constructor constraint
             // Shelter<Dog> shelter = new Shelter<Dog>(); //dog is animal and has parameterless constraint
 
+            //Q13-default key word
+            //return used type of value in generic class
+            //type not resolved in method implementation
+            //so return default =>0:numerical value types , false:bolean, null:reference types and nullable value types
+
             #endregion
         }
     }

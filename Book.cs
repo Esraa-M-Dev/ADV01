@@ -4,7 +4,11 @@ using System.Text;
 
 namespace AssigmnentAdvancedC_01
 {
-    internal class Book
+    internal class Book:IPrinter
     {
+        public void Print()
+        {
+            Console.WriteLine("Book");
+        }
     }
 }
