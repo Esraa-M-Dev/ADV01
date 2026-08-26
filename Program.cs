@@ -159,7 +159,19 @@
             //2-child resolve T for parent and has special T ex:class child<T>:parent<int>
             ChildList<double> childList = new(); //child define its T
             childList.AddToList(5); //must enter int parameter(type of inherited members(parent) was resolved)
-            
+
+            //Q20-cache class
+            Cache<int, string> cache = new Cache<int, string>();
+
+            cache.Add(1, "Esraa");
+
+            Console.WriteLine(cache.Get(1)); // Esraa
+            Console.WriteLine(cache.Contains(1)); // True
+
+            cache.Remove(1);
+
+            Console.WriteLine(cache.Contains(1)); // False
+
             #endregion
         }
     }
