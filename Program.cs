@@ -153,6 +153,13 @@
             //countOfString.Increment();
             //Console.WriteLine(Counter<string>.count); //2:reset counter with start any type of generic class
 
+            //Q19-inheritance with generics
+            //2 ways to inherit
+            //1-child didn't resolve T of parent ,will resolved when create object from child ex: class child<T> :Parent<T>
+            //2-child resolve T for parent and has special T ex:class child<T>:parent<int>
+            ChildList<double> childList = new(); //child define its T
+            childList.AddToList(5); //must enter int parameter(type of inherited members(parent) was resolved)
+            
             #endregion
         }
     }
