@@ -114,6 +114,20 @@
             //type not resolved in method implementation
             //so return default =>0:numerical value types , false:bolean, null:reference types and nullable value types
 
+            //Q14:SafeList with default
+            //SafeList<int> list1 = new();
+            //list1.AddToList(1);//index 0
+            //list1.AddToList(2);//index1
+            //list1.AddToList(3);//index2
+            //Console.WriteLine($"element at index 0 is:{list1.GetElementAt(0)}");
+            //Console.WriteLine($"element at index 3 is:{list1.GetElementAt(3)}");
+            //SafeList<string> list2 = new();
+            //list2.AddToList("esraa");
+            //list2.AddToList("salma");
+            //list2.AddToList("rawan");
+            //Console.WriteLine($"element at index 0 is:{list2.GetElementAt(0)}");
+            //Console.WriteLine($"element at index 3 is:{list2.GetElementAt(3) ?? "Null"}");
+
             #endregion
         }
     }
