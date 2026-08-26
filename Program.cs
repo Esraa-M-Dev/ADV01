@@ -104,6 +104,11 @@
             //Q11:base constraint:generic Type must inherit from specific class
             // Shelter<Dog> shelter = new Shelter<Dog>();
 
+            //Q12:multiple constraint
+            //can apply more than one constraint 
+            //order of constraints :primary , secondary,constructor constraint
+            // Shelter<Dog> shelter = new Shelter<Dog>(); //dog is animal and has parameterless constraint
+
             #endregion
         }
     }
