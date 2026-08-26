@@ -130,8 +130,11 @@
 
             //Q15:Covariance
             //use out keyword to specify T at out positions(as a return type)
-           // IProducer<Animal> producer = new DogProducer(); //accepted T at out position=>implicit cast
+            // IProducer<Animal> producer = new DogProducer(); //accepted T at out position=>implicit cast
 
+            //Q16:Contravariance
+            //use in keyword to specify T at in position(as a parameter)
+             IConsumer<Dog> consumer = new AnimalConsumer(); //accepted T at in position=>implicit cast
 
             #endregion
         }
